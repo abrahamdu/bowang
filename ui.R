@@ -50,17 +50,20 @@ body <- dashboardBody(
                         )  )
                           ),
                    tabItem(tabName = "photo",
-                     #fluidRow(
+                     fluidRow(
                        box(title="First Trio",solidHeader=TRUE,
                          img(src='trio.JPG',width=500,align="center")
                           ),
                        box(title="1 Day",solidHeader=TRUE,
                            img(src='1day.JPG',width=500,align="center")
                        ),
+                       box(title="1 Month",solidHeader=TRUE,
+                           img(src='1month.JPG',width=500,align="center")
+                       ),
                        box(title="2 Month",solidHeader=TRUE,
                          img(src='2month.JPG',width=500,align="center")
                        )
-                      #       )
+                             )
                           )
                ) 
                   )
